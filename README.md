@@ -4,16 +4,15 @@
 
 ### Purpose
     After completing the previous series of analysis to help Louise, an up and coming playwright, plan her first campaign for her play, further analysis was conducted to determine if the outcome of campaigns are affected by either campaign goals, launch date, or both. The overall purpose of this analysis was to visualize outcomes based on launch date and funding goal amount and determine if either metric had an effect on theater campaign outcomes.
-
 ## Analysis and Challenges
 
 ### Analysis of Outcomes Based on Launch Date
     To begin the analysis of outcomes based on launch date, a pivot table was first created to summarize the total number of successful, failed and canceled campaigns based on which month of the year the campaign was launched. The data used for the analysis was filtered to display the outcomes of only theater campaigns, as they were most relevant to Louise's campaign. A line chart was then used to visualize the correlaton between the number of successful, failed, and canceled campaigns based on the campaign's launch month. The visualization below displays an overall trend in the number of successful, failed, and cancelled outcomes depending on which month of the year the campaign was released. 
-    ![Theater_Outcomes_vs_Launch](C:\Users\henri\OneDrive\Desktop\Analysis Projects\Crowdfunding Analysis\Resources\Theater_Outcomes_vs_Launch.png)
+    ![Theater_Outcomes_vs_Launch](C:/Users/henri/OneDrive/Desktop/Analysis Projects/Crowdfunding Analysis/Resources/Theater_Outcomes_vs_Launch.png)
     
 ### Analysis of Outcomes Based on Goals
    The analysis of outcomes based on funding goals began with filtering the data to include only theater campaign funding goals. This was essential to maximize the accuracy of any relevant trends in campaign outcomes. Theatre funding goals were then parsed into $5000 goal ranges, and a count of successful, canceled, or failed campaigns falling within each range was completed. A percentage calculation of each campaign outcome, either successful, failed, or cancelled was then executed, which was then visualized using a line chart. As there were no canceled campaigns that fell within the specified criteria, canceled campaigns are not present within the line chart. The visualization below displays an overall trend in the percentage of successful and failed theatre campaigns based on funding goal range.
-![Theater_Outcomes_vs_Goals](C:\Users\henri\OneDrive\Desktop\Analysis Projects\Crowdfunding Analysis\Resources\Theater_Outcomes_vs_Goals.png)
+![Theater_Outcomes_vs_Goals](C:/Users/henri/OneDrive/Desktop/Analysis Projects/Crowdfunding Analysis/Resources/Theater_Outcomes_vs_Goals.png)
    
 ### Challenges and Difficulties Encountered
     One challenge that was encountered was the default inclusion of multiple items within the pivot chart Rows field. This was a situation that occured when creating a summary chart for the campaign outcomes based on launch date. When adding the variable 'Year' to the pivot table rows field, additional items, such as year and quarter, were automatically included. If this was not addressed, the resulting graph would display the count of campaign outcomes on a quarterly basis, which would not provide a visualization that is detailed enough to make an informed decision. Additional troubleshooting was required to edit this automatic inclusion, and display the Years field in months to increase the detail in the resulting graph.
@@ -33,6 +32,6 @@
 
 ### Additional Analysis That Could be Conducted
 
-    Possible tables and graphs that we could create to gain insight to additional trends within the data include a graph that assesses the campaign outcome based on average donation. This can provide a benchmark for Louise to use to gauge if future campaigns are on track to be successful.
+       Possible tables and graphs that we could create to gain insight to additional trends within the data include a graph that assesses the campaign outcome based on average donation. This can provide a benchmark for Louise to use to gauge if future campaigns are on track to be successful.
 
     Another visualization that can be created is a graph comparing campaign outcomes to launch country. This could be helpful for Louise to determine which country she should launch future campaigns that will have the highest chance of being successful.
